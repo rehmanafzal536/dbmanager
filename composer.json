@@ -1,5 +1,5 @@
 {
-    "name": "laravel/dbmanager",
+    "name": "rehmanafzal/dbmanager",
     "description": "A powerful database manager for Laravel — supports SQLite & MySQL with a clean UI",
     "type": "library",
     "license": "MIT",

@@ -20,7 +20,7 @@ Think phpMyAdmin, but built into your Laravel app.
 ## Installation
 
 ```bash
-composer require laravel/dbmanager
+composer require rehmanafzal/dbmanager
 ```
 
 The package auto-discovers via Laravel's package discovery. No service provider registration, no route files to edit, no migrations to run.
@@ -274,7 +274,7 @@ Views are copied to `resources/views/vendor/dbmanager/`.
 ## Upgrade
 
 ```bash
-composer update laravel/dbmanager
+composer update rehmanafzal/dbmanager
 php artisan view:clear
 php artisan config:clear
 ```

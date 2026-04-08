@@ -52,7 +52,7 @@ Add to your `.env` file:
 
 ```env
 DBMANAGER_USERNAME=admin
-DBMANAGER_PASSWORD=your_secure_password
+DBMANAGER_PASSWORD=secret
 ```
 
 ### Option 2 — Publish the config file

@@ -137,8 +137,8 @@
             <label style="display:flex;align-items:flex-start;gap:12px;cursor:pointer;padding:14px;border:2px solid #e2e8f0;border-radius:10px;transition:all 0.2s" id="mode-replace-label">
               <input type="radio" name="mode" value="replace" style="margin-top:2px;width:16px;height:16px;cursor:pointer">
               <div>
-                <div style="font-weight:700;color:#2d3748;font-size:13px">Replace (Overwrite)</div>
-                <div style="color:#718096;font-size:12px;margin-top:2px">Insert or replace existing rows with matching primary key</div>
+                <div style="font-weight:700;color:#e53e3e;font-size:13px">⚠️ Replace All (Wipe & Reimport)</div>
+                <div style="color:#718096;font-size:12px;margin-top:2px">Drops all existing tables then imports everything fresh. All current data will be lost.</div>
               </div>
             </label>
           </div>
